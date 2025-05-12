@@ -1,7 +1,7 @@
 replicaCount: 1
 image:
   repository: webapp
-  tag: ""
+  tag: "v1.0.20"
   pullPolicy: Never
 service:
   type: NodePort
