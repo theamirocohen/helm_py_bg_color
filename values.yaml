@@ -1,11 +1,10 @@
 replicaCount: 1
 image:
-  repository: webapp
+  repository: kubanaking/webapp
   tag: "v1.0.22"
-  pullPolicy: Never
 service:
   type: NodePort
   port: 5000
   nodePort: 30080
 app:
-  bgColor: "#e6f7ff" # Default light blue color
+  bgColor: "#e6f7ff"
